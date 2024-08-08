@@ -1,8 +1,10 @@
+import ProjectsSidebar from "./components/ProjectsSidebar";
+
 function App() {
   return (
-    <>
-      <h1 className="my-8 text-5xl font-bold text-center">Testing 123</h1>
-    </>
+    <main className="h-screen my-8 ">
+      <ProjectsSidebar />
+    </main>
   );
 }
 
